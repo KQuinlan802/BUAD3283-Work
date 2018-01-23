@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<body>
+<h1> Hello </h1>
+<p> <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </b>
+  <i>Praesent ex odio, porttitor mattis leo eget, semper tincidunt odio. </i>
+  <u>Suspendisse nec lectus in justo sollicitudin bibendum ac et dolor. </u>
+  <s>Nam lectus velit, commodo quis nisi eget, pharetra tempor tortor. </s>
+</p>
+<ul>
+  <li> Red </li>
+  <li> Yellow </li>
+  <li> Green </li>
+  <li> Blue </li>
+  <li> Purple </li>
+</ul>
+<ol>
+  <li> Orange </li>
+  <li> Light Blue </li>
+  <li> Pink </li>
+  <li> Violet </li>
+  <li> Light Green </li>
+</ol>
+<table>
+  <tr>
+    <td> id </td>
+    <td> First Name </td>
+    <td> Last Name </td>
+    <td> Email </td>
+    <td> Gender </td>
+    <td> IP address </td>
+  </tr>
+  <tr>
+    <td> 1 </td>
+    <td> Emlyn  </td>
+    <td> Dockwray  </td>
+    <td> edockwray0@samsung.com </td>
+    <td> Male </td>
+    <td> 92.119.139.124 </td>
+  </tr>
+  <tr>
+    <td> 2 </td>
+    <td> Kenton  </td>
+    <td> Higgonet  </td>
+    <td> khiggonet1@skyrock.com </td>
+    <td> Male </td>
+    <td> 58.191.88.168 </td>
+  </tr>
+  <tr>
+    <td> 3 </td>
+    <td> Cherye  </td>
+    <td> Kristof  </td>
+    <td> ckristof2@scientificamerican.com </td>
+    <td> Female </td>
+    <td> 193.89.36.229 </td>
+  </tr>
+</body>
+</html>
