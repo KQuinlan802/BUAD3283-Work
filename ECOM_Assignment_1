@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<head>
+  <title>Assignment One </title>
+</head>
 <body>
 <h1> Hello </h1>
 <p> <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </b>
@@ -53,5 +56,8 @@
     <td> Female </td>
     <td> 193.89.36.229 </td>
   </tr>
+  <a href="https://www.google.com"> Google </a>
+  <a href="mailto:kaekae02@gmail.com"> Email Me </a>
+<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
 </body>
 </html>
