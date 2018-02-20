@@ -1,19 +1,22 @@
-<HTML>
-<head>
-  <title>Masterhead and Navigation</title>
-</head>
-  <body>
-    <link rel="stylesheet" href="style.css">
-    <div class="masthead">
-      <div class="masthead-logo"></div>
-    </div>
-    <div class="navigation">
-      <ul class="navigation-group">
-        <li class="navigation-item">Home</li>
-        <li class="navigation-item">About Us</li>
-        <li class="navigation-item">Contact Us</li>
-      </ul>
-    </div>
-  </body>
+<?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    $content = 'home';
+    if (isset($_GET['p']) && file_exists('pages/'. $_GET['p'] . '.php')) {
+       $content = $_GET['p'];
+    } elseif (isset($_GET['p']) && !file_exists('pages/'. $_GET['p'] . '.php')) {
+        $content = '404';
+    }
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="masthead"><?php include 'modules/masthead.php'; ?></div>
+        <div class="navigation"><?php include 'modules/navigation.php'; ?></div>
 
-</HTML>
+    </body>
+</html>
