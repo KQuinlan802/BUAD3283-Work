@@ -1,0 +1,14 @@
+body {
+    font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ee1ce5
+}
+.form-group .input-submit {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    width: auto;
+    color: #000;
+}
