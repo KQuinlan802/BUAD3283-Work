@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Register</title>
+<title>Check Out</title>
 
 </head>
 <body>
