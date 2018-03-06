@@ -13,15 +13,15 @@
 		</div>
 		<div class="form-group">
 			  <label>Name on card</label>
-			  <input id="NameOnCard" class="form-control" type="text" ></input>
+			  <input id="NameOnCard" class="form-control" type="text" placeholder="Name on Card"></input>
 		</div>
 		<div class="form-group">
 			  <label>Card number</label>
 			  <input id="CreditCardNumber" class="form-control" type="text"></input>
 		</div>
 		<div class="form-group">
-			  <label>Expiry date</label>
-			  <input id="ExpiryDate" class="form-control" type="text" placeholder="MM / YY" ></input>
+			  <label>Expiration date</label>
+			  <input id="ExpirationDate" class="form-control" type="text" placeholder="MM / YY" ></input>
 		</div>
 		<div class="form-group">
 			  <label>Security code</label>

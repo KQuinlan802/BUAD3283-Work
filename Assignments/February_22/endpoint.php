@@ -1,4 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 require 'vendor/autoload.php';
 use net\authorize\api\contract\v1 as AnetAPI;
 use net\authorize\api\controller as AnetController;
@@ -7,8 +11,8 @@ define("AUTHORIZENET_LOG_FILE","phplog");
 
 // Common setup for API credentials
   $merchantAuthentication = new AnetAPI\MerchantAuthenticationType();
-  $merchantAuthentication->setName("2Qjr8tGQJ6SH");
-  $merchantAuthentication->setTransactionKey("5J83X5Qmne9vf4qe");
+  $merchantAuthentication->setName("YOUR_API_LOGIN_ID");
+  $merchantAuthentication->setTransactionKey("YOUR_TRANSACTION_KEY");
   $refId = 'ref' . time();
 
 // Create the payment data for a credit card
